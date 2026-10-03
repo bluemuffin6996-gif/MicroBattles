@@ -1,0 +1,14 @@
+name: MicroBattles
+version: 1.0.0
+main: me.microbattles.MicroBattles
+author: you
+description: 4v4 Micro Battles style minigame with an auto-generated arena (Minecraft 1.8.x)
+commands:
+  mb:
+    description: Micro Battles commands
+    usage: /mb <join|leave|kit|help|start|stop|tp>
+    aliases: [microbattles]
+permissions:
+  microbattles.admin:
+    description: Micro Battles admin commands
+    default: op
